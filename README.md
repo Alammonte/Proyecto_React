@@ -12,3 +12,11 @@ git branch -M main <- especifica que la rama principal es main
 git remote add origin <url> <- añade un remoto
 
 git push -u origin main <- empuja los cambios
+
+# Cambiar de rama
+## Tener los cambios ya subidos
+## Ir a rama
+git checkout <rama>
+
+### Crear rama
+git checkout -b <rama> 
