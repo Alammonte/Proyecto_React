@@ -20,3 +20,11 @@ git checkout <rama>
 
 ### Crear rama
 git checkout -b <rama> 
+
+## Cambios con Merge
+
+* unifica los cambios entre rama1 y rama2 en rama2 
+# git merge <remote/rama1> <remote/rama2>
+
+* unifica los cambios entre main y Vistas en Vistas
+git merge origin/main origin/Vistas
